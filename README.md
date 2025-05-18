@@ -67,6 +67,11 @@ MONGODB_URI=your_mongodb_uri_here
 uvicorn app.main:app --reload
 ```
 
+you can also run the app by pulling docker container
+```bash
+docker pull rajveer43/socialpilot:latest
+```
+
 ## Results
 
 ### Testing Results
